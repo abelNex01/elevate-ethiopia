@@ -61,7 +61,7 @@ const About = () => {
 
   return (
     <section ref={sectionRef}>
-      <div className="bg-[#1A1A1A] text-white px-32 py-36 mx-24 rounded-[70px]">
+      <div className="bg-[#1A1A1A] text-white px-32 py-36  mx-24 rounded-[70px]">
         <h1 className="text-[32px] text-center leading-relaxed flex flex-wrap justify-center">
           {words.map((word, i) => {
             // Each word gets its own small window along the progress axis.
